@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="External.CSS">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <h3 class="important">Please fill this form carefully</h3>
+        <label id="Label" for="name">Full name</label>
+        <input placeholder="Enter your full name" type="text" id="name"> <br>
+        <label id="Label" for="email">email</label>
+        <input type="email" id="email"> <br>
+        <label id="Label" for="password">password</label>
+        <input type="password" id="password"> <br>
+        <label id="Label" for="Dob">Date of birth;</label>
+        <input type="date" id="DOb"> <br>
+        <label id="Label" for="age">Age;</label>
+        <input required type="number" id="age"> 
+        <p class="important">Please select your Gender</p>
+        <label id="Label" for="male">male</label>
+        <input type="Radio" id="male" name="Gender" value="male">
+        <label id="Label" for="female">female</label>
+        <input type="Radio" id="Female" name="Gender" value="Female">
+        <label id="Label" for="Trans">Trans</label>
+        <input type="Radio" id="Trans" name="Gender" value="Trans">
+        <p class="important">Please select your hobbies</p>
+        <label id="Label" for="gym">gym</label>
+        <input type="Checkbox" id="gym" name="Hobby" value="Gym">
+        <label id="Label" for="football">football</label>
+        <input type="Checkbox" id="Football" name="Hobby" value="Football">
+        <label id="Label" for="coding">coding</label>
+        <input type="Checkbox" id="coding" name="Hobby" value="Coding">
+        <p class="important">Select your Country</p> 
+        <label id="Label" for="Country">Country</label>
+        <select id="Country" name="Country">
+            <option value="Nigeria">Nigeria</option>
+             <option value="Morocco">Morocco</option>
+              <option value="Tanzania">Tanzania</option>
+               <option value="Kenya">Kenya</option>
+        </select>
+        <p class="important">Please give a feedback about your experience with this website</p>
+        <label id="Label" for="Message">Message</label>
+        <textarea id="Message" Name="Message" rows="5" Cols="5"></textarea>
+        <button type="submit">Enter</button>
+
+
+
+    </form>
+    
+</body>
+</html>

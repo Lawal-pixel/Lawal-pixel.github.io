@@ -1,0 +1,10 @@
+* {
+ font-size: 40px;
+ background-color: wheat;
+ text-align: left;
+ color: green;
+ opacity: 1.0;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}

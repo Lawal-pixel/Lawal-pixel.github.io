@@ -1,0 +1,21 @@
+p {
+color: blueviolet;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+font-weight: normal
+}
+.important {
+    color:rgb(0, 0, 225);
+}
+#Label {
+    color: brown;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
